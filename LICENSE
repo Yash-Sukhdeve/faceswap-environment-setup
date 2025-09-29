@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2025 Faceswap Environment Setup Package
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY LICENSES
+
+This package includes configuration files and dependencies for the following
+third-party software, which have their own licenses:
+
+1. PyTorch - BSD License
+2. TensorFlow - Apache License 2.0
+3. OpenCV - Apache License 2.0
+4. InsightFace - MIT License
+5. ONNX Runtime - MIT License
+6. NumPy - BSD License
+7. Pillow - PIL License
+8. SciPy - BSD License
+9. Matplotlib - PSF License
+10. Scikit-learn - BSD License
+11. CustomTkinter - MIT License
+12. Deep-Live-Cam - Various (see original repository)
+
+Please refer to the individual package documentation for their specific
+license terms and requirements.

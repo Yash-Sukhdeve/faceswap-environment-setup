@@ -1,0 +1,78 @@
+# CPU-only requirements for Deep-Live-Cam faceswap
+# For systems without NVIDIA GPU support
+
+# Deep Learning Frameworks (CPU versions)
+torch==2.3.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.18.0 --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cpu
+tensorflow==2.19.0
+
+# ONNX Runtime (CPU version)
+onnx==1.16.0
+onnxruntime==1.16.3
+
+# Face Processing and Computer Vision
+insightface==0.7.3
+opencv-python==4.10.0.84
+opencv-python-headless==4.11.0.86
+scikit-image==0.25.2
+albumentations==2.0.8
+imageio==2.37.0
+
+# Scientific Computing
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.6.1
+matplotlib==3.10.3
+pillow==11.2.1
+
+# UI and Visualization
+customtkinter==5.2.2
+darkdetect==0.8.0
+cv2-enumerate-cameras==1.1.15
+prettytable==3.16.0
+
+# Utilities and Performance
+tqdm==4.67.1
+psutil==5.9.8
+coloredlogs==15.0.1
+rich==14.0.0
+easydict==1.13
+gdown==5.2.0
+
+# Image and Video Processing
+opennsfw2==0.10.2
+tifffile>=2025.5.0
+
+# HTTP and Network
+requests==2.32.3
+urllib3==2.4.0
+certifi>=2025.4.0
+charset-normalizer>=3.4.0
+
+# Data Processing
+pyyaml==6.0.2
+python-dateutil>=2.9.0
+packaging>=25.0
+filelock>=3.18.0
+
+# Core TensorFlow packages
+absl-py==2.3.0
+astunparse==1.6.3
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.72.1
+h5py==3.13.0
+keras==3.10.0
+libclang==18.1.1
+ml-dtypes==0.5.1
+opt-einsum==3.4.0
+protobuf==4.23.2
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+tensorflow-io-gcs-filesystem==0.37.1
+termcolor==3.1.0
+wrapt==1.17.2
+
+# Note: Performance will be significantly slower without GPU acceleration
+# Consider using a cloud GPU instance or upgrading to NVIDIA GPU for real-time performance

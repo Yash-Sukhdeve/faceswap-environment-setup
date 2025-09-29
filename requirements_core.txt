@@ -1,0 +1,30 @@
+# Core requirements for Deep-Live-Cam faceswap functionality
+# Essential packages only - minimum installation
+
+# Deep Learning Frameworks
+torch==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.18.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+torchaudio==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+tensorflow==2.19.0
+
+# Face Processing
+insightface==0.7.3
+opencv-python==4.10.0.84
+
+# ONNX Runtime for optimized inference
+onnx==1.16.0
+onnxruntime-gpu==1.16.3
+
+# Essential Scientific Computing
+numpy==1.26.4
+pillow==11.2.1
+scipy==1.15.3
+
+# UI
+customtkinter==5.2.2
+
+# Utilities
+tqdm==4.67.1
+requests==2.32.3
+pyyaml==6.0.2
+gdown==5.2.0

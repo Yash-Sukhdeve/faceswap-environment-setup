@@ -1,0 +1,80 @@
+name: faceswap_github
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.16
+  - pip>=24.0
+  - numpy>=1.26.0
+  - matplotlib>=3.10.0
+  - pillow>=11.0.0
+  - pyyaml>=6.0.0
+  - requests>=2.32.0
+  - setuptools>=78.0.0
+  - wheel>=0.45.0
+  - pip:
+      # Core Deep Learning Frameworks (install PyTorch separately with correct index)
+      - tensorflow==2.19.0
+      - keras==3.10.0
+
+      # Face Processing and Computer Vision
+      - insightface==0.7.3
+      - opencv-python==4.10.0.84
+      - opencv-python-headless==4.11.0.86
+      - scikit-image==0.25.2
+      - albumentations==2.0.8
+      - imageio==2.37.0
+
+      # ONNX Runtime for optimized inference
+      - onnx==1.16.0
+      - onnxruntime-gpu==1.16.3
+
+      # Scientific Computing
+      - numpy==1.26.4
+      - scipy==1.15.3
+      - scikit-learn==1.6.1
+      - matplotlib==3.10.3
+      - pillow==11.2.1
+
+      # UI and Visualization
+      - customtkinter==5.2.2
+      - darkdetect==0.8.0
+      - cv2-enumerate-cameras==1.1.15
+      - prettytable==3.16.0
+
+      # Utilities and Performance
+      - tqdm==4.67.1
+      - psutil==5.9.8
+      - coloredlogs==15.0.1
+      - rich==14.0.0
+      - easydict==1.13
+      - gdown==5.2.0
+
+      # Image and Video Processing
+      - opennsfw2==0.10.2
+      - simsimd>=6.4.0
+      - tifffile>=2025.5.0
+
+      # HTTP and Network
+      - requests==2.32.3
+      - urllib3==2.4.0
+      - certifi>=2025.4.0
+      - charset-normalizer>=3.4.0
+
+      # Data Processing
+      - pyyaml==6.0.2
+      - python-dateutil>=2.9.0
+      - packaging>=25.0
+      - filelock>=3.18.0
+
+      # Optional Dependencies for Advanced Features
+      - beautifulsoup4>=4.13.0
+      - jinja2>=3.1.0
+      - protobuf>=4.23.0
+      - grpcio>=1.72.0
+      - h5py>=3.13.0
+
+      # Development and Validation
+      - pydantic>=2.11.0
+      - typing-extensions>=4.14.0
+      - cython>=3.1.0

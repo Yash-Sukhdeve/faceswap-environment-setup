@@ -1,0 +1,106 @@
+# GPU-optimized requirements for Deep-Live-Cam faceswap
+# For NVIDIA GPU systems with CUDA 11.8+ support
+
+# PyTorch with CUDA 11.8 support
+torch==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.18.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+torchaudio==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+triton==2.3.0
+
+# TensorFlow with GPU support
+tensorflow==2.19.0
+keras==3.10.0
+
+# ONNX Runtime with GPU acceleration
+onnx==1.16.0
+onnxruntime-gpu==1.16.3
+
+# NVIDIA CUDA Libraries for CUDA 11.8
+nvidia-cublas-cu11==11.11.3.6
+nvidia-cuda-cupti-cu11==11.8.87
+nvidia-cuda-nvrtc-cu11==11.8.89
+nvidia-cuda-runtime-cu11==11.8.89
+nvidia-cudnn-cu11==8.7.0.84
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.3.0.86
+nvidia-cusolver-cu11==11.4.1.48
+nvidia-cusparse-cu11==11.7.5.86
+nvidia-nccl-cu11==2.20.5
+nvidia-nvtx-cu11==11.8.86
+
+# NVIDIA CUDA Libraries for CUDA 12.x (backward compatibility)
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-nccl-cu12==2.20.5
+nvidia-nvtx-cu12==12.1.105
+
+# Face Processing and Computer Vision (GPU-accelerated)
+insightface==0.7.3
+opencv-python==4.10.0.84
+opencv-python-headless==4.11.0.86
+scikit-image==0.25.2
+albumentations==2.0.8
+imageio==2.37.0
+
+# Scientific Computing with GPU support
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.6.1
+matplotlib==3.10.3
+pillow==11.2.1
+
+# Core TensorFlow GPU packages
+absl-py==2.3.0
+astunparse==1.6.3
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.72.1
+h5py==3.13.0
+libclang==18.1.1
+ml-dtypes==0.5.1
+opt-einsum==3.4.0
+protobuf==4.23.2
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+tensorflow-io-gcs-filesystem==0.37.1
+termcolor==3.1.0
+wrapt==1.17.2
+
+# UI and Utilities
+customtkinter==5.2.2
+darkdetect==0.8.0
+cv2-enumerate-cameras==1.1.15
+prettytable==3.16.0
+tqdm==4.67.1
+psutil==5.9.8
+coloredlogs==15.0.1
+rich==14.0.0
+easydict==1.13
+gdown==5.2.0
+opennsfw2==0.10.2
+tifffile>=2025.5.0
+requests==2.32.3
+urllib3==2.4.0
+certifi>=2025.4.0
+charset-normalizer>=3.4.0
+pyyaml==6.0.2
+python-dateutil>=2.9.0
+packaging>=25.0
+filelock>=3.18.0
+
+# Performance optimization packages
+simsimd==6.4.7
+stringzilla==3.12.5
+
+# Requirements:
+# - NVIDIA GPU with 6GB+ VRAM (RTX 3070+ recommended)
+# - NVIDIA drivers 470.57+
+# - CUDA toolkit 11.8+ or 12.x
+# - 16GB+ system RAM (32GB recommended)
